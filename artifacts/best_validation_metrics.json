@@ -1,0 +1,30 @@
+{
+  "LogisticRegression": {
+    "best_params": {
+      "model__C": 0.01,
+      "model__class_weight": null
+    },
+    "validation_metrics": {
+      "accuracy": 0.9490382213339995,
+      "precision": 0.9196428571428571,
+      "recall": 0.8828571428571429,
+      "f1": 0.9008746355685131,
+      "roc_auc": 0.9859252092303227
+    }
+  },
+  "RandomForest": {
+    "best_params": {
+      "model__class_weight": null,
+      "model__max_depth": 10,
+      "model__min_samples_split": 10,
+      "model__n_estimators": 200
+    },
+    "validation_metrics": {
+      "accuracy": 0.9507869098176368,
+      "precision": 0.9401444788441693,
+      "recall": 0.8676190476190476,
+      "f1": 0.9024269440316989,
+      "roc_auc": 0.9874742392724105
+    }
+  }
+}
